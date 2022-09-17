@@ -1,0 +1,108 @@
+#lenom {
+  overflow-x: visible;
+  overflow-x: initial;
+}
+body.lenom-index-dx {
+  background-color: rgb(253, 248, 226);
+  width: 100%;
+  height: 100%;
+  padding: 0; /*去除内边距*/
+  border: 0; /*去除边框*/
+  margin: 0; /*去除外边距*/
+}
+hr.lenom-xxx{
+  color: #fff;
+  width: 1px;
+  padding: 0; /*去除内边距*/
+  border: 0; /*去除边框*/
+  margin: 0; /*去除外边距*/ 
+}
+
+
+div.lenom-headdx {
+  color: aqua;
+}
+
+div.lenom-dbys {
+  background-color: rgba(58, 190, 241, 0.945);
+  position: absolute;
+  width: 100%;
+  height: 10%;
+  border: 1px solid rgb(255, 230, 91);
+}
+
+div.lenom-zkj {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  width: 100%;
+  height: 90%;
+}
+
+div.lenom-jz {
+  background-color: rgb(245, 213, 166);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  height: 80%;
+  border: 2px solid rgb(247, 244, 87);
+  text-align: center;
+  line-height: 15px;
+}
+
+p {
+  cursor: text;
+} /* css注释： 设置鼠标移动到html p对象时鼠标变为文本选择样式 */
+a {
+  cursor: pointer;
+} /* css注释： 设置鼠标移动到a超链接对象时鼠标变为手指形状（链接选择） */
+body {
+  cursor: url(/zywj/images/cur/01.cur);
+} /* 设置鼠标指针默认为一个小图片 */
+
+ul.lenom-bk {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(49, 245, 252);
+}
+
+li.lenom-dht {
+  float: left;
+}
+
+li a.lenom-dhta {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#lenom-nav {
+  height: 60px;
+  background: rgba(0, 0, 0, 0.2);
+  padding-left: 24px;
+}
+#lenom-nav a {
+  margin-right: 31px;
+  margin-top: 19px;
+  display: inline-block;
+  color: rgba(255, 255, 255, 0.85);
+  text-decoration: none;
+}
+#lenom-nav a:hover {
+  color: #fff;
+}
+
+li.lenom-xuanz{
+  height: 100%;
+    color: var(--juejin-font-white);
+    background-color: #1effa2;
+    border: 2px solid rgb(247, 244, 87);
+    border-radius: 3px;
+    font-weight: 100;
+    text-align: center;
+}
